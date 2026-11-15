@@ -2,7 +2,7 @@
 User-agent: *
 Allow: /
 
-# Sitemap location for faster indexing on new domain
+# Point directly to your new sitemap
 Sitemap: https://thanasiccompanyalkhor.vercel.app/sitemap.xml
 
 # Block non-content directories to save crawl budget
@@ -11,7 +11,7 @@ Disallow: /node_modules/
 Disallow: /.next/
 Disallow: /assets/private/
 
-# Optional: Block AI scrapers if desired
+# Optional: Block AI scrapers from copying your content
 User-agent: GPTBot
 Disallow: /
 
